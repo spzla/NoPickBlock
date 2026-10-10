@@ -4,6 +4,7 @@ version: '${version}'
 main: dev.spzla.noPickBlock.NoPickBlock
 api-version: '26.3'
 load: POSTWORLD
+folia-supported: true
 
 authors: [ spzla ]
 
