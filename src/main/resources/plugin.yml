@@ -1,0 +1,20 @@
+name: NoPickBlock
+version: '${version}'
+
+main: dev.spzla.noPickBlock.NoPickBlock
+api-version: '26.3'
+load: POSTWORLD
+
+authors: [ spzla ]
+
+permissions:
+  nopickblock.bypass:
+    description: Bypass all pick block restrictions
+    default: op
+
+  nopickblock.deny.data.command_block:
+    default: not op
+  nopickblock.deny.data.chain_command_block:
+    default: not op
+  nopickblock.deny.data.repeating_command_block:
+    default: not op
